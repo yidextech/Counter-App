@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+div.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+div.card{
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 7rem;
+    font-family: monospace;
+}
+button{
+    padding: 10px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:chocolate;
+}
+button.increase{
+    background-color: hsl(120, 97%, 75%);
+
+}
+button.increase:hover{
+    background-color: hsl(120, 97%, 80%);
+
+}
+button.increase:active{
+    background-color: hsl(120, 97%, 85%);
+
+}
+button.reset{
+    background-color: hsl(195, 56%, 85%);
+
+}
+button.reset:hover{
+    background-color: hsl(195, 56%, 90%);
+
+}
+button.reset:active{
+    background-color: hsl(195, 56%, 95%);
+
+}
+button.decrease{
+    background-color: hsl(350, 87%, 85%);
+}
+button.decrease:hover{
+    background-color: hsl(350, 87%, 90%);
+}
+button.decrease:active{
+    background-color: hsl(350, 87%, 95%);
+}
+div.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:850px){
+div.card{
+    width: 95%;
+    min-height:50vh;
+}
+div.buttons{
+    flex-direction: column-reverse;
+
+}
+}
