@@ -1,1 +1,1 @@
-Check out my simple counter
+Check out my simple counter app
