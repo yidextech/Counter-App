@@ -1,1 +1,1 @@
-Check out my simple
+Check out my simple counter
